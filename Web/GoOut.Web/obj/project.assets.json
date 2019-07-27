@@ -13003,6 +13003,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "GoOut.Common >= 1.0.0",
       "GoOut.Data >= 1.0.0",
       "GoOut.Data.Models >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
@@ -13049,6 +13050,9 @@
             },
             "C:\\Users\\vladislav.kavazov\\Desktop\\GoOut\\GoOut\\Data\\GoOut.Data\\GoOut.Data.csproj": {
               "projectPath": "C:\\Users\\vladislav.kavazov\\Desktop\\GoOut\\GoOut\\Data\\GoOut.Data\\GoOut.Data.csproj"
+            },
+            "C:\\Users\\vladislav.kavazov\\Desktop\\GoOut\\GoOut\\GoOut.Common\\GoOut.Common.csproj": {
+              "projectPath": "C:\\Users\\vladislav.kavazov\\Desktop\\GoOut\\GoOut\\GoOut.Common\\GoOut.Common.csproj"
             }
           }
         }

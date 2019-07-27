@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Data\GoOut.Data.Models\GoOut.Data.Models.csproj" />
     <ProjectReference Include="..\..\Data\GoOut.Data\GoOut.Data.csproj" />
+    <ProjectReference Include="..\..\GoOut.Common\GoOut.Common.csproj" />
   </ItemGroup>
 
 </Project>

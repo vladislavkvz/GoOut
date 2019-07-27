@@ -36,7 +36,6 @@ C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\bin\Debug\netcoreap
 C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\bin\Debug\netcoreapp2.2\GoOut.Common.dll
 C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\bin\Debug\netcoreapp2.2\GoOut.Common.pdb
 C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\bin\Debug\netcoreapp2.2\GoOut.Data.Common.pdb
-C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
 C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\AccessDenied.g.cshtml.cs
 C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ConfirmEmail.g.cshtml.cs
 C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ExternalLogin.g.cshtml.cs
@@ -71,3 +70,4 @@ C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\obj\Debug\netcoreap
 C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
 C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
 C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs

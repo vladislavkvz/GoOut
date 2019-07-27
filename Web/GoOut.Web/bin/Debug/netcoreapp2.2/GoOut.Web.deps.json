@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.2": {
       "GoOut.Web/1.0.0": {
         "dependencies": {
+          "GoOut.Common": "1.0.0",
           "GoOut.Data": "1.0.0",
           "GoOut.Data.Models": "1.0.0",
           "Microsoft.AspNetCore.App": "2.2.0",
