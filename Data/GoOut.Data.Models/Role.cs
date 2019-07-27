@@ -6,6 +6,10 @@
 
     public class Role : IdentityRole, IAuditInfo, IDeletableEntity
     {
+        public Role(string name)
+               : base(name)
+        { }
+
         // Audit info
         public DateTime CreatedOn { get; set; }
         public DateTime? ModifiedOn { get; set; }

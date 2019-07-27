@@ -7,3 +7,10 @@ C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data\obj\Debug\netstan
 C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data\obj\Debug\netstandard2.0\GoOut.Data.AssemblyInfo.cs
 C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data\obj\Debug\netstandard2.0\GoOut.Data.dll
 C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data\obj\Debug\netstandard2.0\GoOut.Data.pdb
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data\bin\Debug\netstandard2.0\GoOut.Common.dll
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data\bin\Debug\netstandard2.0\GoOut.Data.Common.dll
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data\bin\Debug\netstandard2.0\GoOut.Data.Models.dll
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data\bin\Debug\netstandard2.0\GoOut.Common.pdb
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data\bin\Debug\netstandard2.0\GoOut.Data.Models.pdb
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data\bin\Debug\netstandard2.0\GoOut.Data.Common.pdb
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data\obj\Debug\netstandard2.0\GoOut.Data.csproj.CopyComplete

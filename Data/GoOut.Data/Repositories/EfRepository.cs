@@ -2,8 +2,8 @@
 {
     using System;
     using System.Linq;
-    using System.Threading.Tasks;
     using Common.Repositories;
+    using System.Threading.Tasks;
     using Microsoft.EntityFrameworkCore;
 
     public class EfRepository<TEntity> : IRepository<TEntity>

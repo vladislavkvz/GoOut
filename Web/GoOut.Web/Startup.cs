@@ -2,17 +2,18 @@
 {
     using Data;
     using Data.Models;
+    using Data.Seeding;
     using Data.Repositories;
     using Data.Common.Repositories;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.AspNetCore.Http;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
-    using Microsoft.AspNetCore.Http;
-    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.AspNetCore.Identity;
+    using Microsoft.AspNetCore.Identity.UI;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
-    using Microsoft.EntityFrameworkCore;
-   using Microsoft.AspNetCore.Identity;
-    using Microsoft.AspNetCore.Identity.UI;
 
     public class Startup
     {
@@ -23,12 +24,10 @@
             this.configuration = configuration;
         }
 
-
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             // Framework services
-
             services.AddDbContext<Data.DbContext>(
                 options => options.UseSqlServer(this.configuration.GetConnectionString("DefaultConnection")));
 
@@ -41,7 +40,8 @@
                })
                .AddEntityFrameworkStores<Data.DbContext>()
                .AddUserStore<UserStore>()
-               .AddDefaultUI(UIFramework.Bootstrap4);
+               .AddDefaultUI(UIFramework.Bootstrap4)
+               .AddDefaultTokenProviders();
 
             services
                 .AddMvc()
@@ -70,6 +70,20 @@
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            // Seed data on application startup
+            using (var serviceScope = app.ApplicationServices.CreateScope())
+            {
+                var dbContext = serviceScope.ServiceProvider.GetRequiredService<Data.DbContext>();
+
+                if (env.IsDevelopment())
+                {
+                    dbContext.Database.Migrate();
+                }
+                dbContext.Database.EnsureCreated();
+
+                new Seeder().SeedAsync(dbContext, serviceScope.ServiceProvider).GetAwaiter().GetResult();
+            }
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -84,11 +98,12 @@
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
+            app.UseAuthentication();
 
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
-                    name:"areaRoute",
+                    name: "areaRoute",
                     template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
                 routes.MapRoute(
