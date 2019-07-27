@@ -1,0 +1,8 @@
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data.Models\bin\Debug\netstandard2.0\GoOut.Data.Models.deps.json
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data.Models\bin\Debug\netstandard2.0\GoOut.Data.Models.dll
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data.Models\bin\Debug\netstandard2.0\GoOut.Data.Models.pdb
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data.Models\obj\Debug\netstandard2.0\GoOut.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data.Models\obj\Debug\netstandard2.0\GoOut.Data.Models.AssemblyInfoInputs.cache
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data.Models\obj\Debug\netstandard2.0\GoOut.Data.Models.AssemblyInfo.cs
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data.Models\obj\Debug\netstandard2.0\GoOut.Data.Models.dll
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data.Models\obj\Debug\netstandard2.0\GoOut.Data.Models.pdb

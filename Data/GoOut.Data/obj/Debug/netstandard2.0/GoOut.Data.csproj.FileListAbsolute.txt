@@ -1,0 +1,9 @@
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data\bin\Debug\netstandard2.0\GoOut.Data.deps.json
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data\bin\Debug\netstandard2.0\GoOut.Data.dll
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data\bin\Debug\netstandard2.0\GoOut.Data.pdb
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data\obj\Debug\netstandard2.0\GoOut.Data.csprojAssemblyReference.cache
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data\obj\Debug\netstandard2.0\GoOut.Data.csproj.CoreCompileInputs.cache
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data\obj\Debug\netstandard2.0\GoOut.Data.AssemblyInfoInputs.cache
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data\obj\Debug\netstandard2.0\GoOut.Data.AssemblyInfo.cs
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data\obj\Debug\netstandard2.0\GoOut.Data.dll
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Data\GoOut.Data\obj\Debug\netstandard2.0\GoOut.Data.pdb
