@@ -71,3 +71,11 @@ C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\obj\Debug\netcoreap
 C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
 C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
 C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\bin\Debug\netcoreapp2.2\GoOut.Services.Data.dll
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\bin\Debug\netcoreapp2.2\GoOut.Services.Mapping.dll
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\bin\Debug\netcoreapp2.2\GoOut.Web.ViewModels.dll
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\bin\Debug\netcoreapp2.2\GoOut.Services.Data.pdb
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\bin\Debug\netcoreapp2.2\GoOut.Services.Mapping.pdb
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\bin\Debug\netcoreapp2.2\GoOut.Web.ViewModels.pdb
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Users\Index.g.cshtml.cs
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\_Layout.g.cshtml.cs

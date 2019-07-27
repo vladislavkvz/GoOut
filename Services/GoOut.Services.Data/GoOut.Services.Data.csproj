@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\GoOut.Data.Common\GoOut.Data.Common.csproj" />
+    <ProjectReference Include="..\..\Data\GoOut.Data.Models\GoOut.Data.Models.csproj" />
+    <ProjectReference Include="..\..\Web\GoOut.Web.ViewModels\GoOut.Web.ViewModels.csproj" />
+    <ProjectReference Include="..\GoOut.Services.Mapping\GoOut.Services.Mapping.csproj" />
+  </ItemGroup>
+
+</Project>

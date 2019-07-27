@@ -1,0 +1,9 @@
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Services\GoOut.Services.Mapping\bin\Debug\netstandard2.0\GoOut.Services.Mapping.deps.json
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Services\GoOut.Services.Mapping\bin\Debug\netstandard2.0\GoOut.Services.Mapping.dll
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Services\GoOut.Services.Mapping\obj\Debug\netstandard2.0\GoOut.Services.Mapping.csproj.CoreCompileInputs.cache
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Services\GoOut.Services.Mapping\obj\Debug\netstandard2.0\GoOut.Services.Mapping.AssemblyInfoInputs.cache
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Services\GoOut.Services.Mapping\obj\Debug\netstandard2.0\GoOut.Services.Mapping.AssemblyInfo.cs
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Services\GoOut.Services.Mapping\bin\Debug\netstandard2.0\GoOut.Services.Mapping.pdb
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Services\GoOut.Services.Mapping\obj\Debug\netstandard2.0\GoOut.Services.Mapping.csprojAssemblyReference.cache
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Services\GoOut.Services.Mapping\obj\Debug\netstandard2.0\GoOut.Services.Mapping.dll
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Services\GoOut.Services.Mapping\obj\Debug\netstandard2.0\GoOut.Services.Mapping.pdb

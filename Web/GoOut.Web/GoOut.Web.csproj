@@ -20,6 +20,14 @@
     <ProjectReference Include="..\..\Data\GoOut.Data.Models\GoOut.Data.Models.csproj" />
     <ProjectReference Include="..\..\Data\GoOut.Data\GoOut.Data.csproj" />
     <ProjectReference Include="..\..\GoOut.Common\GoOut.Common.csproj" />
+    <ProjectReference Include="..\..\Services\GoOut.Services.Data\GoOut.Services.Data.csproj" />
+    <ProjectReference Include="..\..\Services\GoOut.Services.Mapping\GoOut.Services.Mapping.csproj" />
+    <ProjectReference Include="..\GoOut.Web.ViewModels\GoOut.Web.ViewModels.csproj" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Models\" />
   </ItemGroup>
 
 </Project>

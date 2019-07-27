@@ -1,0 +1,16 @@
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web.ViewModels\bin\Debug\netstandard2.0\GoOut.Web.ViewModels.deps.json
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web.ViewModels\bin\Debug\netstandard2.0\GoOut.Web.ViewModels.dll
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web.ViewModels\bin\Debug\netstandard2.0\GoOut.Web.ViewModels.pdb
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web.ViewModels\bin\Debug\netstandard2.0\GoOut.Data.Common.dll
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web.ViewModels\bin\Debug\netstandard2.0\GoOut.Data.Models.dll
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web.ViewModels\bin\Debug\netstandard2.0\GoOut.Services.Mapping.dll
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web.ViewModels\bin\Debug\netstandard2.0\GoOut.Data.Models.pdb
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web.ViewModels\bin\Debug\netstandard2.0\GoOut.Services.Mapping.pdb
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web.ViewModels\bin\Debug\netstandard2.0\GoOut.Data.Common.pdb
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web.ViewModels\obj\Debug\netstandard2.0\GoOut.Web.ViewModels.csprojAssemblyReference.cache
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web.ViewModels\obj\Debug\netstandard2.0\GoOut.Web.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web.ViewModels\obj\Debug\netstandard2.0\GoOut.Web.ViewModels.AssemblyInfoInputs.cache
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web.ViewModels\obj\Debug\netstandard2.0\GoOut.Web.ViewModels.AssemblyInfo.cs
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web.ViewModels\obj\Debug\netstandard2.0\GoOut.Web.ViewModels.csproj.CopyComplete
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web.ViewModels\obj\Debug\netstandard2.0\GoOut.Web.ViewModels.dll
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web.ViewModels\obj\Debug\netstandard2.0\GoOut.Web.ViewModels.pdb

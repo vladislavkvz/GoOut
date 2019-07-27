@@ -1,9 +1,14 @@
 ﻿namespace GoOut.Web
 {
     using Data;
+    using ViewModels;
     using Data.Models;
     using Data.Seeding;
+    using Services.Data;
+    using Services.Mapping;
     using Data.Repositories;
+    using System.Reflection;
+    using Services.Data.Contracts;
     using Data.Common.Repositories;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Http;
@@ -64,12 +69,15 @@
             services.AddScoped(typeof(IDeletableEntityRepository<>), typeof(EfDeletableEntityRepository<>));
             services.AddScoped(typeof(IRepository<>), typeof(EfRepository<>));
 
-            // Application services : TODO
+            // Application services
+            services.AddTransient<IUsersService, UsersService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            AutoMapperConfig.RegisterMappings(typeof(ErrorViewModel).GetTypeInfo().Assembly);
+
             // Seed data on application startup
             using (var serviceScope = app.ApplicationServices.CreateScope())
             {

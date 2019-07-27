@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "001a7f4f9b41601a035ba4877be61268f014a97f"
+    "signature": "3f25c95345174861e62f1cc4cf4c929ac835f662"
   },
   "compilationOptions": {
     "defines": [
@@ -27,6 +27,9 @@
           "GoOut.Common": "1.0.0",
           "GoOut.Data": "1.0.0",
           "GoOut.Data.Models": "1.0.0",
+          "GoOut.Services.Data": "1.0.0",
+          "GoOut.Services.Mapping": "1.0.0",
+          "GoOut.Web.ViewModels": "1.0.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.AspNetCore.Identity.UI": "2.2.5",
@@ -40,6 +43,21 @@
         },
         "compile": {
           "GoOut.Web.dll": {}
+        }
+      },
+      "AutoMapper/8.1.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "8.1.1.0",
+            "fileVersion": "8.1.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
         }
       },
       "Microsoft.AspNetCore.Identity.UI/2.2.5": {
@@ -616,6 +634,43 @@
         },
         "compile": {
           "GoOut.Data.Models.dll": {}
+        }
+      },
+      "GoOut.Services.Data/1.0.0": {
+        "dependencies": {
+          "GoOut.Data.Common": "1.0.0",
+          "GoOut.Data.Models": "1.0.0",
+          "GoOut.Services.Mapping": "1.0.0",
+          "GoOut.Web.ViewModels": "1.0.0"
+        },
+        "runtime": {
+          "GoOut.Services.Data.dll": {}
+        },
+        "compile": {
+          "GoOut.Services.Data.dll": {}
+        }
+      },
+      "GoOut.Services.Mapping/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "8.1.1"
+        },
+        "runtime": {
+          "GoOut.Services.Mapping.dll": {}
+        },
+        "compile": {
+          "GoOut.Services.Mapping.dll": {}
+        }
+      },
+      "GoOut.Web.ViewModels/1.0.0": {
+        "dependencies": {
+          "GoOut.Data.Models": "1.0.0",
+          "GoOut.Services.Mapping": "1.0.0"
+        },
+        "runtime": {
+          "GoOut.Web.ViewModels.dll": {}
+        },
+        "compile": {
+          "GoOut.Web.ViewModels.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3682,6 +3737,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AutoMapper/8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GKBliBukkLG0z/U0T4Jy+yEpr5bKDImQ9nEy/T8jqNulwNkWDjiEWa9TL4yCxIhleDbmVmw2xYSaJ3Eb2OcSUg==",
+      "path": "automapper/8.1.1",
+      "hashPath": "automapper.8.1.1.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Identity.UI/2.2.5": {
       "type": "package",
       "serviceable": true,
@@ -3936,6 +3998,21 @@
       "sha512": ""
     },
     "GoOut.Data.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GoOut.Services.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GoOut.Services.Mapping/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GoOut.Web.ViewModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
