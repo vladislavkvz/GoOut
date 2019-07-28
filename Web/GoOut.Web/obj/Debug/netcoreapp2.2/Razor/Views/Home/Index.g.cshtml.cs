@@ -19,12 +19,12 @@ using GoOut.Web;
 #line default
 #line hidden
 #line 2 "C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\Views\_ViewImports.cshtml"
-using GoOut.Web.Models;
+using GoOut.Web.ViewModels;
 
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"99464617055fdb505bb0bb7fd91f9b14f7b0d030", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1e61f5c15f1a9e6ed1526fedcae11bbcf2c56eb2", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2e65a00d61fa280ba064563d3ea151e527fd1c9b", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

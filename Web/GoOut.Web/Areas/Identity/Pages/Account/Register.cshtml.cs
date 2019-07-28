@@ -38,6 +38,8 @@
 
         public class InputModel
         {
+            [Required(ErrorMessage = "Please enter a username for current user.")]
+            public string UserName { get; set; }
 
             [Required(ErrorMessage = "Please enter your email.")]
             [EmailAddress]
@@ -73,7 +75,7 @@
             if (ModelState.IsValid)
             {
                 var user = new User {
-                    UserName = Input.Email,
+                    UserName = Input.UserName,
                     Email = Input.Email,
                     FirstName = Input.FirstName,
                     LastName = Input.LastName,

@@ -19,7 +19,7 @@ using GoOut.Web;
 #line default
 #line hidden
 #line 2 "C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\Views\_ViewImports.cshtml"
-using GoOut.Web.Models;
+using GoOut.Web.ViewModels;
 
 #line default
 #line hidden
@@ -34,7 +34,7 @@ using GoOut.Common;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"38f2bfb7644342f1e98c89b0d46d1d2f0f47a2b9", @"/Views/Shared/_CookieConsentPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1e61f5c15f1a9e6ed1526fedcae11bbcf2c56eb2", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2e65a00d61fa280ba064563d3ea151e527fd1c9b", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__CookieConsentPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-area", "", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -96,7 +96,7 @@ using GoOut.Common;
             WriteLiteral(" ");
             EndContext();
             BeginContext(427, 72, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "38f2bfb7644342f1e98c89b0d46d1d2f0f47a2b95750", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "38f2bfb7644342f1e98c89b0d46d1d2f0f47a2b95754", async() => {
                 BeginContext(485, 10, true);
                 WriteLiteral("Learn More");
                 EndContext();

@@ -25,9 +25,4 @@
     <ProjectReference Include="..\GoOut.Web.ViewModels\GoOut.Web.ViewModels.csproj" />
   </ItemGroup>
 
-
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Models\" />
-  </ItemGroup>
-
 </Project>

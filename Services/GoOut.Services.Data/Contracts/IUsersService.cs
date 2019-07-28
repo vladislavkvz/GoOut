@@ -6,5 +6,7 @@
     public interface IUsersService
     {
         IEnumerable<UserViewModel> GetAll(bool withDeleted = false);
+        bool CreaUserAsync(CreateUserViewModel model);
+        bool DeleteUser(string id);
     }
 }

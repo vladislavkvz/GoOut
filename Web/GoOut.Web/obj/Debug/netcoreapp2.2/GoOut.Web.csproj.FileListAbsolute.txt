@@ -78,4 +78,6 @@ C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\bin\Debug\netcoreap
 C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\bin\Debug\netcoreapp2.2\GoOut.Services.Mapping.pdb
 C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\bin\Debug\netcoreapp2.2\GoOut.Web.ViewModels.pdb
 C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Users\Index.g.cshtml.cs
-C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\_Layout.g.cshtml.cs
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\_ViewStart.g.cshtml.cs
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\_ViewImports.g.cshtml.cs
+C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Users\Create.g.cshtml.cs

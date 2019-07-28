@@ -41,7 +41,8 @@
                {
                    options.Password.RequireDigit = false;
                    options.Password.RequireNonAlphanumeric = false;
-                   options.Password.RequiredLength = 7;
+                   options.Password.RequiredLength = 6;
+                   options.Password.RequireUppercase = false;
                })
                .AddEntityFrameworkStores<Data.DbContext>()
                .AddUserStore<UserStore>()

@@ -19,7 +19,7 @@ using GoOut.Web;
 #line default
 #line hidden
 #line 2 "C:\Users\vladislav.kavazov\Desktop\GoOut\GoOut\Web\GoOut.Web\Views\_ViewImports.cshtml"
-using GoOut.Web.Models;
+using GoOut.Web.ViewModels;
 
 #line default
 #line hidden
@@ -29,7 +29,7 @@ using GoOut.Common;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9d836bced515bde3a09787d57d215aceb9020ea9", @"/Views/Home/Privacy.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1e61f5c15f1a9e6ed1526fedcae11bbcf2c56eb2", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2e65a00d61fa280ba064563d3ea151e527fd1c9b", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Privacy : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
