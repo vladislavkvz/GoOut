@@ -3,7 +3,7 @@
     using Data.Models;
     using Services.Mapping;
 
-    public class UserViewModel : IMapFrom<User>
+    public class ListUserViewModel : IMapFrom<User>
     {
         public string Id { get; set; }
 

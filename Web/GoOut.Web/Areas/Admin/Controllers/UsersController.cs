@@ -1,11 +1,11 @@
 ﻿namespace GoOut.Web.Areas.Admin.Controllers
 {
+    using System.Linq;
     using NToastNotify;
     using ViewModels.Users;
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Mvc;
     using GoOut.Services.Data.Contracts;
-    using Microsoft.AspNetCore.Authorization;
 
     [Area("Admin")]
     public class UsersController : Controller
@@ -19,27 +19,16 @@
             this.toastNotification = toastNotification;
             this.usersService = usersService;
         }
+
+        [HttpGet]
         public IActionResult Index()
         {
-            //Success
-            toastNotification.AddSuccessToastMessage("Same for success message");
-            // Success with default options (taking into account the overwritten defaults when initializing in Startup.cs)
-            toastNotification.AddSuccessToastMessage("Same for success message");
-
-            //Info
-            toastNotification.AddInfoToastMessage("Same for success message");
-
-            //Warning
-            toastNotification.AddWarningToastMessage("Same for success message");
-
-            //Error
-            toastNotification.AddErrorToastMessage("Same for success message");
-
-            var users = this.usersService.GetAll();
+            var users = this.usersService.GetAll().Where(u=>u.Email != User.Identity.Name);
 
             return View(users);
         }
 
+        [HttpGet]
         public IActionResult Create()
         {
             return View();
@@ -59,11 +48,53 @@
             if (!userCreated)
             {
                 //TODO Log error etc.
-                ModelState.AddModelError(string.Empty, "There was an error creating the user!");
+                this.toastNotification.AddErrorToastMessage("There was a problem creating the user!");
 
                 return View(model);
             }
 
+            this.toastNotification.AddSuccessToastMessage("User was successfully created!");
+            return this.RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult Edit(string id)
+        {
+            if (string.IsNullOrEmpty(id))
+            {
+                return this.NotFound();
+            }
+
+            UpdateUserViewModel model = this.usersService.GetUserById(id);
+
+            if (model == null)
+            {
+                return this.NotFound();
+            }
+            
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(UpdateUserViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            bool userUpdated = this.usersService.UpdateUserAsync(model.Id, model);
+
+            if (!userUpdated)
+            {
+                //TODO Log error etc.
+                this.toastNotification.AddErrorToastMessage("There was a problem updating the user!");
+
+                return View(model);
+            }
+
+            this.toastNotification.AddSuccessToastMessage("User was successfully updated!");
             return this.RedirectToAction("Index");
         }
 
@@ -71,9 +102,9 @@
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(string id)
         {
-            if (id == null)
+            if (string.IsNullOrEmpty(id))
             {
-                return this.RedirectToAction("Index");
+                return this.NotFound();
             }
 
             bool userDeleted = this.usersService.DeleteUser(id);
@@ -81,10 +112,11 @@
             if (!userDeleted)
             {
                 //TODO Log error etc.
-                ModelState.AddModelError(string.Empty, "There was an error deleting the user!");
+                this.toastNotification.AddErrorToastMessage("There was a problem deleting the user!");
 
             }
 
+            this.toastNotification.AddSuccessToastMessage("User was successfully deleted!");
             return this.RedirectToAction("Index");
         }
     }

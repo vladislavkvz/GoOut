@@ -7,6 +7,7 @@
     using Microsoft.AspNetCore.Identity;
     using GoOut.Data.Common.Repositories;
     using System.Collections.Generic;
+    using System.Threading.Tasks;
 
     public class UsersService : IUsersService
     {
@@ -17,10 +18,27 @@
             this.userManager = userManager;
         }
         
-        public IEnumerable<UserViewModel> GetAll(bool withDeleted = false)
+        public IEnumerable<ListUserViewModel> GetAll(bool withDeleted = false)
         {
-            return this.userManager.Users.To<UserViewModel>();
+            return this.userManager.Users.To<ListUserViewModel>();
         }
+
+        public UpdateUserViewModel GetUserById(string id)
+        {
+            var user = this.userManager.FindByIdAsync(id).Result;
+
+            var model = new UpdateUserViewModel
+            {
+                UserName = user.UserName,
+                Email = user.Email,
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                PhoneNumber = user.PhoneNumber
+            };
+
+            return model;
+        }
+
         public bool CreaUserAsync(CreateUserViewModel model)
         {
             var user = new User
@@ -41,6 +59,25 @@
             return false;
         }
 
+        public bool UpdateUserAsync(string id,UpdateUserViewModel model)
+        {
+            var user = this.userManager.FindByIdAsync(id).Result;
+
+            user.UserName = model.UserName;
+            user.Email = model.Email;
+            user.FirstName = model.FirstName;
+            user.LastName = model.LastName;
+            user.PhoneNumber = model.PhoneNumber;
+
+            var result = this.userManager.UpdateAsync(user);
+
+            if (result.Result.Succeeded)
+            {
+                return true;
+            }
+            return false;
+        }
+        
         public bool DeleteUser(string id)
         {
             if (!string.IsNullOrEmpty(id))
