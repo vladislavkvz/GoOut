@@ -43,7 +43,7 @@
 
         public bool DeleteUser(string id)
         {
-            if (string.IsNullOrEmpty(id))
+            if (!string.IsNullOrEmpty(id))
             {
                 var user = this.userManager.FindByIdAsync(id).Result;
 

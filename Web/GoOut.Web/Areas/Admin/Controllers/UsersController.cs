@@ -1,5 +1,6 @@
 ﻿namespace GoOut.Web.Areas.Admin.Controllers
 {
+    using NToastNotify;
     using ViewModels.Users;
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Mvc;
@@ -9,14 +10,31 @@
     [Area("Admin")]
     public class UsersController : Controller
     {
+        private readonly IToastNotification toastNotification;
         private readonly IUsersService usersService;
 
-        public UsersController(IUsersService usersService)
+        public UsersController(IToastNotification toastNotification,
+            IUsersService usersService)
         {
+            this.toastNotification = toastNotification;
             this.usersService = usersService;
         }
         public IActionResult Index()
         {
+            //Success
+            toastNotification.AddSuccessToastMessage("Same for success message");
+            // Success with default options (taking into account the overwritten defaults when initializing in Startup.cs)
+            toastNotification.AddSuccessToastMessage("Same for success message");
+
+            //Info
+            toastNotification.AddInfoToastMessage("Same for success message");
+
+            //Warning
+            toastNotification.AddWarningToastMessage("Same for success message");
+
+            //Error
+            toastNotification.AddErrorToastMessage("Same for success message");
+
             var users = this.usersService.GetAll();
 
             return View(users);

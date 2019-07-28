@@ -8,6 +8,7 @@
     using Services.Mapping;
     using Data.Repositories;
     using System.Reflection;
+    using NToastNotify;
     using Services.Data.Contracts;
     using Data.Common.Repositories;
     using Microsoft.AspNetCore.Mvc;
@@ -51,7 +52,13 @@
 
             services
                 .AddMvc()
-                .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
+                .AddNToastNotifyNoty(new NotyOptions
+                {
+                    ProgressBar = true,
+                    Timeout = 5000,
+                    Theme = "mint"
+                });
 
             services.Configure<CookiePolicyOptions>(options =>
             {
@@ -108,6 +115,7 @@
             app.UseStaticFiles();
             app.UseCookiePolicy();
             app.UseAuthentication();
+            app.UseNToastNotify();
 
             app.UseMvc(routes =>
             {
